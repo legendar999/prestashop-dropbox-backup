@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>akvabackup</name>
+    <displayName><![CDATA[Akva Backup (Dropbox)]]></displayName>
+    <version><![CDATA[1.2.0]]></version>
+    <description><![CDATA[Daily full store backup (database + files) to Dropbox, using resumable HTTP cron ticks and client-side encryption before upload.]]></description>
+    <author><![CDATA[Akva Modules]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <confirmUninstall><![CDATA[Uninstall the Akva Backup module? Settings and the BO tab will be removed. Backup history (tables) is KEPT.]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

@@ -1,0 +1,8 @@
+{shop_name} — varnostna kopija NI uspela
+
+Nocni backup (opravilo #{run_id}) se je koncal z napako ob {date}:
+
+{error}
+
+Preverite BO: Napredne nastavitve > Akva Backup (zadnja opravila, stanje povezave z Dropboxom).
+Naslednje nacrtovano opravilo se bo zagnalo po urniku; ta zapis ostane v zgodovini.

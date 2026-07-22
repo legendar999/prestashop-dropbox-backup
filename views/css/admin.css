@@ -1,0 +1,48 @@
+/* akvabackup BO — ADDITIVE spacing only. The PS9 legacy admin theme
+   (admin/themes/default/public/theme.css) fully owns panel geometry:
+   .panel{padding:0} + flex .panel-heading{width:100%;padding:1rem;font-weight:600}
+   + .panel-body{padding:1rem} (plus :has() fallbacks for body-less panels).
+   NEVER redefine that geometry here — negative-margin "full bleed" tricks collide
+   with the heading's width:100% flex box (known regression: headings hang outside
+   their panels). */
+
+.akvabackup-config { max-width: 1160px; }
+
+.akvabackup-config .panel { margin-bottom: 24px; }
+.akvabackup-config .panel-body { padding: 1.25rem 1.5rem; }
+
+/* section subtitles inside a panel */
+.akvabackup-subtitle { margin: 0 0 10px; font-size: 13px; font-weight: 600; }
+
+/* status block */
+.akvabackup-status-row p { margin: 0 0 10px; line-height: 1.5; }
+.akvabackup-status-row p:last-child { margin-bottom: 0; }
+.akvabackup-space { margin: 8px 0 6px; }
+
+/* runs table */
+.akvabackup-table-wrap { overflow-x: auto; margin: 12px 0 4px; }
+.akvabackup-runs { margin: 0; }
+.akvabackup-runs th, .akvabackup-runs td { vertical-align: middle; }
+.akvabackup-runs .akvabackup-err { max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* forms */
+.akvabackup-config .form-group { margin-bottom: 16px; }
+.akvabackup-config .help-block { margin: 6px 0 0; font-size: 12px; line-height: 1.45; }
+.akvabackup-runnow { margin-top: 16px; }
+.akvabackup-inline-help { display: inline-block; margin: 0 0 0 12px; vertical-align: middle; }
+
+/* retention help sits beside the number input — align with the input's text line */
+.akvabackup-ret-help { margin-top: 8px; }
+
+/* numbered instruction lists */
+.akvabackup-steps { margin: 0 0 16px; padding-left: 20px; }
+.akvabackup-steps li { margin-bottom: 8px; line-height: 1.5; }
+.akvabackup-steps li:last-child { margin-bottom: 0; }
+
+/* monospace bits */
+.akvabackup-cron-url, .akvabackup-key { font-family: Consolas, Menlo, monospace; font-size: 12px; }
+.akvabackup-key { word-break: break-all; }
+.akvabackup-cmd { margin: 8px 0 0; padding: 8px 10px; background: #f6f6f6; border: 1px solid #e5e5e5; font-size: 12px; overflow-x: auto; }
+
+/* alerts */
+.akvabackup-config .alert { margin-bottom: 16px; }

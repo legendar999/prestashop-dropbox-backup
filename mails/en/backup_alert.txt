@@ -1,0 +1,8 @@
+{shop_name} — backup FAILED
+
+The nightly backup (run #{run_id}) ended with an error at {date}:
+
+{error}
+
+Check the back office: Advanced Parameters > Akva Backup (recent runs, Dropbox connection state).
+The next scheduled run will start on schedule; this record stays in the history.
