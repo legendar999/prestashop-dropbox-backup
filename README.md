@@ -46,11 +46,10 @@ No Composer dependencies, no external SDK, no shell access needed.
 
 ## Installation
 
-1. Download the release ZIP (or clone this repository into a folder named `akvabackup` —
-   the folder name must be exactly `akvabackup`).
-2. Install it via Back office > Modules, or copy the folder to `modules/akvabackup/` and
-   install from the module manager.
-3. The module adds a BO page under **Advanced Parameters > Akva Backup Dropbox**.
+1. Download the installable ZIP from the [Releases page](https://github.com/legendar999/prestashop-dropbox-backup/releases)
+   and upload it in Back office > Modules > Upload a module — no renaming needed.
+   (Installing from source instead? The folder name must be exactly `akvabackup`.)
+2. The module adds a BO page under **Advanced Parameters > Akva Backup Dropbox**.
 
 ## Setup
 
